@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #cr{
+            border:2px solid black;
+            height:200px;
+            width:1000px;
+            background-color: black;
+            position: relative;
+            top:200px;
+        }
+        #cr1{
+            border:1px solid red;
+            height:50px;
+            width:200px;
+            background-color: white;
+            position: relative;
+            top:80px;
+
+        }
+        #cr2{
+            border:1px solid black;
+            height:50px;
+            width:200px;
+            background-color :white;
+            position: relative;
+            bottom:-30px;left:550px;
+
+        }
+        #cr3{
+            border:1px solid white;
+            height:50px;
+            width:200px;
+            background-color:white;
+            position: relative;
+            top:-23px;left:280px;
+
+        }
+        #car{
+            /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0VhJhebNNaNAwKt38WdcI4M9IScKO3dIf-g&s"); */
+            /* background-size: contain; */
+            height:100px;
+            width: 200px;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0VhJhebNNaNAwKt38WdcI4M9IScKO3dIf-g&s");
+
+            background-repeat: no-repeat;
+            border: 1px solid black;
+            background-size: cover;
+            position: relative;
+            bottom:10000px;left:800px;
+             /* mix-blend-mode: multiply;  */
+             background-blend-mode: multiply;
+            animation-name: car;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes car{
+            0%{
+         
+                position: relative;
+                top:0%;
+                right:1000px;
+            }
+            25%{
+                position: relative;
+                top:0px;
+                left:900px;
+                bottom:0%;
+            }
+            50%{
+                position: relative;
+                left:-40px;
+                top:0%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div id="cr">
+        <div id="cr1"></div>
+        <div id="cr2"></div>
+        <div id="cr3"></div>
+    </div>
+    <div id="car"> </div>
+</body>
+</html>
