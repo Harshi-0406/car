@@ -1,2 +1,3 @@
 new git msg
 updated msg
+msg new
